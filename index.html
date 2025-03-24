@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vùng Kinh Tế Trọng Điểm Phía Nam</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #6A0DAD;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+        .accordion {
+            background: #6A0DAD;
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            width: 100%;
+            text-align: left;
+            border: none;
+            outline: none;
+            font-size: 18px;
+            transition: background 0.3s, transform 0.2s ease-in-out;
+            margin-top: 5px;
+            border-radius: 5px;
+        }
+        .accordion:hover, .active {
+            background: #520888;
+            transform: scale(1.02);
+        }
+        .panel {
+            padding: 15px;
+            display: none;
+            background: white;
+            overflow: hidden;
+            border-left: 3px solid #6A0DAD;
+            animation: slideDown 0.4s ease-in-out;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #6A0DAD;
+            color: white;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .sub-accordion {
+            background: #0073e6;
+            color: white;
+            cursor: pointer;
+            padding: 10px;
+            width: 100%;
+            text-align: left;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            transition: background 0.3s, transform 0.2s ease-in-out;
+            margin-top: 3px;
+            border-radius: 5px;
+        }
+        .sub-accordion:hover, .sub-active {
+            background: #005bb5;
+            transform: scale(1.02);
+        }
+        .sub-panel {
+            padding: 10px;
+            display: none;
+            background: #f1f1f1;
+            border-left: 3px solid #0073e6;
+            animation: slideDown 0.3s ease-in-out;
+            border-radius: 5px;
+        }
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>Bài 16: Vùng Kinh Tế Trọng Điểm Phía Nam</header>
+
+    <div class="container">
+        <button class="accordion">1. Giới thiệu về Vùng kinh tế trọng điểm phía Nam</button>
+        <div class="panel">
+            <button class="sub-accordion">Thành phần</button>
+            <div class="sub-panel">
+                <p>Gồm: Đồng Nai, Bình Dương, Bà Rịa - Vũng Tàu, Long An, Tiền Giang, Tây Ninh, Bình Phước và TP. Hồ Chí Minh.</p>
+            </div>
+
+            <button class="sub-accordion">Vị trí chiến lược</button>
+            <div class="sub-panel">
+                <p>Quan trọng về địa kinh tế, địa chính trị, quốc phòng và an ninh của Việt Nam.</p>
+            </div>
+
+            <button class="sub-accordion">Diện tích và dân số</button>
+            <div class="sub-panel">
+                <ul>
+                    <li>Diện tích: Gần 24.000 km² (7,3% diện tích cả nước).</li>
+                    <li>Dân số: Hơn 12,35 triệu người (15,5% dân số cả nước).</li>
+                </ul>
+            </div>
+        </div>
+
+        <button class="accordion">2. Thế mạnh nổi trội của vùng</button>
+        <div class="panel">
+            <button class="sub-accordion">a) Vị trí địa lí</button>
+            <div class="sub-panel">
+                <p>Bản lề giữa Tây Nguyên, duyên hải Nam Trung Bộ và đồng bằng sông Cửu Long.</p>
+            </div>
+
+            <button class="sub-accordion">b) Tài nguyên thiên nhiên</button>
+            <div class="sub-panel">
+                <ul>
+                    <li>Đất xám trên phù sa cổ, phù hợp trồng cây công nghiệp.</li>
+                    <li>Khí hậu cận xích đạo, thuận lợi cho nông nghiệp.</li>
+                    <li>Biển giàu nguồn lợi thủy sản.</li>
+                    <li>Dầu khí thềm lục địa phía Nam.</li>
+                </ul>
+            </div>
+
+            <button class="sub-accordion">c) Nguồn lao động</button>
+            <div class="sub-panel">
+                <p>Dân số đông, nhiều lao động chất lượng cao.</p>
+            </div>
+
+            <button class="sub-accordion">d) Cơ sở hạ tầng</button>
+            <div class="sub-panel">
+                <p>Hệ thống giao thông, điện, nước, viễn thông hiện đại.</p>
+            </div>
+
+            <button class="sub-accordion">e) Vốn đầu tư</button>
+            <div class="sub-panel">
+                <p>Hút 50% vốn FDI vào Việt Nam mỗi năm.</p>
+            </div>
+        </div>
+
+        <button class="accordion">3. Một số ngành kinh tế tiêu biểu</button>
+        <div class="panel">
+            <button class="sub-accordion">Công nghiệp</button>
+            <div class="sub-panel">
+                <ul>
+                    <li>Chế biến, sản xuất.</li>
+                    <li>Khai thác dầu khí.</li>
+                    <li>Điện tử, dệt may.</li>
+                </ul>
+            </div>
+
+            <button class="sub-accordion">Dịch vụ</button>
+            <div class="sub-panel">
+                <ul>
+                    <li>Thương mại.</li>
+                    <li>Tài chính.</li>
+                    <li>Du lịch, logistics.</li>
+                </ul>
+            </div>
+        </div>
+
+        <button class="accordion">4. Vai trò của vùng đối với nền kinh tế cả nước</button>
+        <div class="panel">
+            <ul>
+                <li>Đầu tàu kinh tế, đóng vai trò dẫn dắt phát triển kinh tế Việt Nam.</li>
+                <li>Trung tâm thu hút vốn FDI lớn nhất cả nước.</li>
+                <li>Đóng góp lớn vào GDP:</li>
+                <ul>
+                    <li>GDP của vùng chiếm hơn 45% GDP cả nước.</li>
+                    <li>Gần 51% GDP của bốn vùng kinh tế trọng điểm.</li>
+                </ul>
+            </ul>
+        </div>
+    </div>
+
+    <footer>© 2025 - Hoàng Vũ</footer>
+
+    <script>
+        document.querySelectorAll(".accordion").forEach(button => {
+            button.addEventListener("click", function() {
+                this.classList.toggle("active");
+                let panel = this.nextElementSibling;
+                panel.style.display = (panel.style.display === "block") ? "none" : "block";
+            });
+        });
+
+        document.querySelectorAll(".sub-accordion").forEach(button => {
+            button.addEventListener("click", function() {
+                this.classList.toggle("sub-active");
+                let panel = this.nextElementSibling;
+                panel.style.display = (panel.style.display === "block") ? "none" : "block";
+            });
+        });
+    </script>
+</body>
+</html>
